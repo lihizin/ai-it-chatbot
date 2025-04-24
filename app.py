@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify
 import os
 import requests
 from dotenv import load_dotenv
+from faq import get_faq_answer
 
 load_dotenv()
 
@@ -17,6 +18,11 @@ def home():
 def ask():
     user_input = request.json.get("message")
 
+     # Try to get a predefined FAQ answer
+    answer = get_faq_answer(user_input)
+    if answer:
+        return jsonify({"response": answer})
+        
     # Hugging Face Inference API
     API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-base"
     headers = {"Authorization": f"Bearer {HF_API_KEY}"}
