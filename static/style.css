@@ -16,22 +16,6 @@ body {
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.logo {
-  height: 40px; /* Size of the logo */
-  float: right;
-}
-
->>>>>>> 93aa967 (Initial commit)
 .title {
   text-align: center;
   font-size: 36px;
@@ -41,10 +25,6 @@ body {
   font-family: 'IBM Plex Mono', monospace;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 93aa967 (Initial commit)
 .chat-container {
   background: #ffffff;
   border-radius: 12px;
