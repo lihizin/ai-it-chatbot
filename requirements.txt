@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 openai
 python-dotenv
 gunicorn
 Flask
 requests
+=======
+flask
+openai
+python-dotenv
+>>>>>>> 93aa967 (Initial commit)

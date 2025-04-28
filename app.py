@@ -17,6 +17,7 @@ def home():
 @app.route('/ask', methods=['POST'])
 def ask():
     user_input = request.json.get("message")
+<<<<<<< HEAD
 
      # Try to get a predefined FAQ answer
     answer = get_faq_answer(user_input)
@@ -24,6 +25,13 @@ def ask():
         return jsonify({"response": answer})
         
     # Hugging Face Inference API
+=======
+    # Try to get a predefined FAQ answer
+    answer = get_faq_answer(user_input)
+    if answer:
+        return jsonify({"response": answer})
+    # AI Inference API
+>>>>>>> 93aa967 (Initial commit)
     API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-base"
     headers = {"Authorization": f"Bearer {HF_API_KEY}"}
     payload = {

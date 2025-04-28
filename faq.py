@@ -5,8 +5,13 @@ FAQ: dict[str,str] = {"reset password": "To reset your Microsoft 365 password,go
                       "vpn connection":"To connect to GlobalProtect VPN, install the app from:'https://morphisec0.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx?id=%2FShared%20Documents%2FGlobal%20Protect&viewid=56e026ca%2D10a2%2D4632%2Db398%2D0d296aaf861d' and make sure to use the server address 'mphc,gpcloudservice.com'.",
                       "shared mailbox":"To add or remove a shared mailbox, go to Outlook > File > Account Settings > More Settings > Advanced.",
                       "license renewal":"If you're seeing a license expired message, please fill in this request for a renewal form - 'https://forms.office.com/Pages/ResponsePage.aspx?id=PV2c5tBj5UOWMR6gh8djtBTCBdVkwI5BixKFT4TpTv1UOE5SUUI2TERLSENGMlVIWktNVTY3NkRZRi4u&fswReload=1&fswNavStart=1745495549931'.",
+<<<<<<< HEAD
                       "new license":"Fill in the Software Request Application: 'https://forms.office.com/Pages/ResponsePage.aspx?id=PV2c5tBj5UOWMR6gh8djtBTCBdVkwI5BixKFT4TpTv1UOE5SUUI2TERLSENGMlVIWktNVTY3NkRZRi4u'. "
 
+=======
+                      "new license":"Fill in the Software Request Application: 'https://forms.office.com/Pages/ResponsePage.aspx?id=PV2c5tBj5UOWMR6gh8djtBTCBdVkwI5BixKFT4TpTv1UOE5SUUI2TERLSENGMlVIWktNVTY3NkRZRi4u'. ",
+                      "new ticket":"To submit a new ticket please send an email to 'it_support@morphisec.com or use this link - 'https://morphisec0.sharepoint.com/HelpDeskKnowledge/Lists/Issue%20tracker/AllItems.aspx?viewid=e660eec6%2Dfd55%2D4ea9%2Da034%2Dc35f04c45af4'"
+>>>>>>> 93aa967 (Initial commit)
 }
 
 # The function is checking if there's a match between the user's input to the dictionary (FAQ)
